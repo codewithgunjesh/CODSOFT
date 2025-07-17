@@ -1,17 +1,18 @@
-# Movie-Genre-Classification
-# Overview
-This project implements a movie genre classification system using various machine learning algorithms. The goal is to classify movies into different genres based on their descriptions. The project includes implementations using Random Forest, Support Vector Machines (SVM), Naive Bayes (specifically Bernoulli Naive Bayes), and a basic Naive Bayes classifier.
+# About the Project
+ This project was completed as part of the CODSOFT Web Development Internship (Level 1). The task was to create a simple calculator that performs basic arithmetic operations: addition, subtraction, multiplication, and division.
+# Technologies Used
+HTML5 – Structure of the calculator layout
 
+CSS3 – Styling and responsiveness
+
+JavaScript – Functional logic for operations
 # Features
-- Data Processing: Converts movie descriptions into numerical features using TF-IDF and binary representations.
-- Classification Algorithms:
- - Random Forest
- - Bernoulli Naive Bayes
- - Multinomial Naive Bayes
-- Evaluation: Provides accuracy and detailed classification metrics for model evaluation.
-# Requirements
-- Python 3.x
-- scikit-learn
-- pandas
-- numpy
-# Contributing
+User-friendly interface
+
+Real-time button interaction
+
+Supports four basic operations: +, −, ×, ÷
+
+Clear display and reset function
+
+Responsive layout (works on desktop and mobile)
