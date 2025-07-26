@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunjesh Kumar Gunjan - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">My Portfolio</h1>
+            <nav class="main-nav">
+                <a href="#about">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container hero-content-grid">
+            <div class="hero-text">
+                <h2>Gunjesh kumar Gunjan</h2>
+                <p class="subtitle">B.Tech Student Specializing in ECE</p>
+                <p>Hi, I'm a B.Tech student specializing in Electronics and Communication Engineering (ECE). I’m passionate about exploring innovative technologies and applying my academic knowledge to real-world applications in the field of software development and intelligent systems.</p>
+                <a href="#projects" class="cta-button">View My Projects</a>
+            </div>
+            <div class="myself-image">
+                <img src="myphoto.jpg" alt="Profile image" />
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>My Skills & Interests</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Web Development</h3>
+                    <p>Building responsive and engaging user interfaces with HTML/CSS.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Software Development</h3>
+                    <p>Experience with C++ and Python, applying knowledge to real-world projects.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>ECE Core Concepts</h3>
+                    <p>A strong foundation in VLSI, Signal & Systems, and Microprocessors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Gunjesh Kumar Gunjan. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+    }
+    .main-header, .main-footer {
+        background-color: #282c34;
+        color: rgb(15, 169, 125);
+        padding: 20px 0;
+    }
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .main-nav a {
+        color: rgb(233, 232, 231);
+        margin: 0 15px;
+        text-decoration: none;
+    }
+    .hero-section {
+        background-color: #0a8165;
+        padding: 50px 0;
+    }
+    .hero-content-grid {
+        display: flex;
+        align-items: center;
+    }
+    .hero-text {
+        flex: 1;
+    }
+    .hero-image img {
+        max-width: 100%;
+        height: auto;
+    }
+    .cta-button {
+        display: inline-block;
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    .about-section {
+        padding: 50px 0;
+    }
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+    }
+    .skill-card {
+        background-color: #0a8b6b;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
